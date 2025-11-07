@@ -1,0 +1,534 @@
+/*Admin login*/
+.Adcont {
+
+    -fx-flex-shrink: 0;
+    -fx-background-radius:0px 53px 53px 0px;
+    -fx-background-color:#04080F;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 10, 0, 15, 6);
+    -fx-pref-width:400px;
+    -fx-pref-height:600px;
+
+}
+.Aback{
+    -fx-background-color:A1C6EA;
+}
+
+.Atitl{
+    -fx-text-fill: #DAE3E5;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+    -fx-line-height: normal;
+}
+
+.Aim{
+    -fx-pref-width:375.5px;
+    -fx-pref-height:387px;
+}
+
+.Altitl{
+    -fx-text-fill: #04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 30px;
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+    -fx-line-height: normal;
+}
+
+.Atextf {
+    -fx-pref-width:316px;
+    -fx-pref-height:30px;
+    -fx-background-radius: 2px 2px 2px 2px;
+    -fx-background-color: #FFF;
+    -fx-font-family: "Open Sans";
+    -fx-prompt-text-fill:#C1A9A9;
+}
+
+
+
+
+
+.Apassf{
+     -fx-pref-width:316px;
+    -fx-pref-height:30px;
+    -fx-background-radius: 2px 2px 2px 2px;
+    -fx-background-color: #FFF;
+    -fx-font-family: "Open Sans";
+    -fx-prompt-text-fill:#C1A9A9;
+}
+
+
+.passbt{
+    -fx-background-color:#FFF;
+    -fx-pref-height:29px;
+    -fx-pref-width:51px;
+    -fx-background-radius:0px 2px 2px 0px;
+    -fx-cursor:hand;
+}
+
+
+.Alog{
+    -fx-background-color: #04080F;
+    -fx-background-blend-mode: color-burn;
+    -fx-pref-width: 112px;
+    -fx-text-fill: #BBD1EA;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 800;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 3, 3);
+    -fx-cursor: hand;
+}
+
+/*admindash*/
+
+
+.adback{
+    -fx-background-color:white;
+}
+
+.dashcont{
+    -fx-pref-width: 200px;
+    -fx-pref-height:600px;
+    -fx-background-color:#BBD1EA;
+}
+
+.dashcontbt{
+    -fx-pref-width:200px;
+    -fx-pref-height:48.5px;
+    -fx-background-color:#26A1E3;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #04080F;
+    -fx-font-weight:600;
+    -fx-font-size: 20px;
+    -fx-cursor:hand;
+}
+
+.dashcontbt:hover{
+    -fx-background-color:#FFF;
+}
+.dashcontlab{
+    -fx-text-fill: #04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 24px;
+    -fx-font-style: normal;
+    -fx-font-weight: 600;
+    -fx-line-height: normal;
+}
+
+.dashlogbt{
+    -fx-pref-width:140.5px;
+    -fx-pref-height:43.5px;
+    -fx-background-color:#507DBC;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill:#04080F;
+    -fx-font-size:24px;
+    -fx-font-weight:800;
+    -fx-background-blend-mode: color-burn;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 3, 3);
+    -fx-cursor: hand;
+
+}
+
+.dashsearch{
+    -fx-pref-width:365.5px;
+    -fx-pref-height:29px;
+    -fx-background-color: linear-gradient(to top right, #BBD1EA, rgba(187, 209, 234, 0.70));
+    -fx-effect: dropshadow(three-pass-box,rgba(0, 0, 0, 0.25), 4, 0, 0, 3);
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-prompt-text-fill:#04080F;
+
+}
+
+.dashsearchbt{
+    -fx-pref-width:34.5px;
+    -fx-pref-height:29px;
+    -fx-background-color: #DAE3E5;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-effect: dropshadow(three-pass-box,rgba(0, 0, 0, 0.25), 4, 0, 0, 2);
+}
+
+
+.dashdata{
+    -fx-pref-height:465.5px;
+    -fx-pref-width:500px;
+    -fx-background-color: #FFF;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-background-radius: 40px 40px 0px 0px;
+    -fx-effect:dropshadow(three-pass-box,rgba(0, 0, 0, 0.25), 20, 0, 8, 0);
+}
+
+.dashnum{
+    -fx-pref-width:500px;
+    -fx-pref-height:60px;
+    -fx-background-color:#EEF4FA;
+    -fx-background-radius: 40px 40px 0px 0px;
+}
+
+.numlab{
+    -fx-text-fill:#04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight:400;
+    -fx-font-size:20px;
+}
+
+.table-view .column-header {
+    -fx-border-radius: 0px 1.5px 1.5px 0px;
+    -fx-border-width: 1px;
+    -fx-border-color: #828282;
+    -fx-background-color: #DAE3E5;
+}
+
+
+/* Apply styles to the table rows */
+.table-row-cell {
+    -fx-font-size: 14px;
+}
+
+/* Apply alternating row colors */
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+/* Apply styles to the selected row */
+.table-row-cell:selected {
+    -fx-background-color: #04080F; /* Use color #04080F for selected rows */
+}
+
+/* Apply styles to the horizontal scrollbar */
+.table-view .scroll-bar:horizontal {
+    -fx-background-color: #dddddd;
+}
+
+/* Apply styles to the vertical scrollbar */
+.table-view .scroll-bar:vertical {
+    -fx-background-color: #dddddd;
+}
+
+/* Apply styles to the table border */
+.table-view {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+
+/* Apply styles to the column resize area */
+.table-view .column-header-background .resize-line {
+    -fx-background-color: #666666;
+}
+
+/* Additional styling for better visual appeal */
+.table-view .column-header:hover {
+    -fx-background-color: #A1C6EA; /* Change background color on hover */
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #A1C6EA; /* Change background color on hover */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #DAE3E5; /* Change background color for selected row */
+    -fx-text-fill: #04080F; /* Change text color for selected row */
+}
+
+
+.dashslied{
+    -fx-pref-height:49px;
+    -fx-pref-width:600px;
+    -fx-background-radius: 40px 40px 0px 0px;
+    -fx-background-color: #BBD1EA;
+}
+
+.dashslidbt{
+    -fx-background-color: transparent;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight:700;
+    -fx-text-fill: #04080F;
+    -fx-font-size:20px;
+    -fx-cursor:hand;
+}
+
+
+
+/*Client reg*/
+.clback{
+    -fx-background-color:#A1C6EA;
+}
+.clcont{
+    -fx-flex-shrink: 0;
+    -fx-background-radius:0px 53px 53px 0px;
+    -fx-background-color:#04080F;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 10, 0, 15, 6);
+    -fx-pref-width:400px;
+    -fx-pref-height:600px;
+}
+
+.clbt{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.cltitl{
+    -fx-text-fill: #04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 30px;
+    -fx-font-style: normal;
+    -fx-font-weight: Bold;
+    -fx-line-height: normal;
+}
+
+.cltextf{
+    -fx-pref-width:172px;
+    -fx-pref-height:30px;
+    -fx-background-radius:5px;
+    -fx-background-color: #FFF;
+    -fx-font-family: "Open Sans";
+    -fx-prompt-text-fill:#979797;
+}
+
+.cltextar{
+    -fx-pref-width:369px;
+    -fx-pref-height:55px;
+    -fx-background-radius:5px;
+    -fx-background-color: #FFF;
+    -fx-font-family: "Open Sans";
+    -fx-prompt-text-fill:#979797;
+}
+
+.clreg{
+    -fx-background-color: #04080F;
+    -fx-background-blend-mode: color-burn;
+    -fx-pref-width: 112px;
+    -fx-text-fill: #BBD1EA;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 800;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 3, 3);
+    -fx-cursor:hand;
+}
+
+.clsilder{
+    -fx-pref-width:200px;
+    -fx-pref-height:600px;
+    -fx-background-color: #BBD1EA;
+}
+
+.cldashbt{
+    -fx-pref-width:200px;
+    -fx-pref-height:48.5px;
+    -fx-background-color:#26A1E3;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #04080F;
+    -fx-font-weight:600;
+    -fx-font-size: 20px;
+}
+
+.cldashbt:hover{
+    -fx-background-color:#FFF;
+}
+
+
+.cllogbt{
+    -fx-pref-width:140.5px;
+    -fx-pref-height:43.5px;
+    -fx-background-color:#507DBC;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill:#04080F;
+    -fx-font-size:24px;
+    -fx-font-weight:800;
+    -fx-background-blend-mode: color-burn;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 3, 3);
+    -fx-cursor: hand;
+}
+
+/*Client details*/
+
+.cldback{
+    -fx-background-color: #A1C6EA;
+}
+
+.cldcon{
+    -fx-pref-width:500px;
+    -fx-pref-height:590px;
+    -fx-background-color: #DAE3E5;
+}
+
+.cldimgcont{
+    -fx-pref-height:187px;
+    -fx-pref-width:400px;
+    -fx-background-color: #04080F;
+}
+
+.cldclname{
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #BBD1EA;
+    -fx-font-weight: 700;
+    -fx-font-size: 40px;
+}
+
+.cldsaloname{
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #BBD1EA;
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+}
+
+.clddtil{
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: #04080F;
+    -fx-font-weight: 800;
+    -fx-font-size: 20px;
+}
+
+.cldedit{
+    -fx-background-color: #04080F;
+    -fx-background-blend-mode: color-burn;
+    /*-fx-pref-width: 112px;*/
+    -fx-text-fill: #BBD1EA;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 800;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 3, 3);
+    -fx-cursor: hand;
+}
+
+.clddelete{
+    -fx-background-color: #04080F;
+    -fx-background-blend-mode: color-burn;
+    -fx-pref-width: 112px;
+    -fx-text-fill: #BBD1EA;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 800;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 3, 3);
+    -fx-cursor: hand;
+}
+
+
+/*Setting*/
+.sehed{
+    -fx-pref-width:800px;
+    -fx-pref-height:70px;
+    -fx-background-color:#DAE3E5;
+}
+
+.seback{
+    -fx-background-color: #FFF;
+}
+
+.secont{
+    -fx-background-radius: 30px;
+    -fx-background-color: linear-gradient(to bottom right, #ffffff, rgba(255, 255, 255, 0.70));
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 1, 4, 4, 4);
+    -fx-pref-width:370.5;
+    -fx-pref-height:220.5;
+
+}
+
+.setit{
+    -fx-text-fill:#04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 600;
+    -fx-font-size: 30px;
+}
+
+.selab{
+    -fx-text-fill:#F00;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 300;
+    -fx-font-size: 20px;
+}
+
+.setp{
+    -fx-text-fill:#000;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 400;
+    -fx-font-size: 20px;
+}
+
+.setex{
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-pref-width:63.5px;
+    -fx-prompt-text-fill:#04080F;
+    -fx-font-weight: 900;
+    -fx-font-size: 15px;
+}
+
+.secolorre{
+    -fx-pref-width: 26px;
+    -fx-pref-height: 26px;
+    -fx-background-color: #F00;
+}
+.secolorgr{
+    -fx-pref-width: 26px;
+    -fx-pref-height: 26px;
+    -fx-background-color: #01c652;
+}
+.secoloror{
+    -fx-pref-width: 26px;
+    -fx-pref-height: 26px;
+    -fx-background-color: #fec409;
+}
+
+.setog{
+    -fx-text-fill: white;
+    -fx-background-color: rgba(4, 8, 15, 1);
+    -fx-pref-width:100px;
+    -fx-pref-height:30px;
+    -fx-font-size:20px;
+    -fx-font-weight: 600;
+}
+
+
+.sebt{
+    /* Setting border radius */
+    -fx-border-radius: 15px;
+    -fx-background-color: #DAE3E5;
+    -fx-pref-width:175;
+    -fx-pref-height:35px;
+    -fx-text-fill:#04080F;
+    -fx-font-size:15px;
+    -fx-cursor:hand;
+}
+
+
+.Adcont {
+    -fx-flex-shrink: 0;
+    -fx-background-radius:0px 107px 107px 0px;
+    -fx-background-color:#04080F;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 10, 0, 15, 6);
+    -fx-pref-width:400px;
+}
+.back{
+    -fx-background-color:#A1C6EA;
+}
+
+
+.titl{
+    -fx-text-fill: #DAE3E5;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+
+
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+    -fx-line-height: normal;
+}
+
+
+
+
+
+

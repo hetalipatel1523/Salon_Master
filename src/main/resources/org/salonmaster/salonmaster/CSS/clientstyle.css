@@ -1,0 +1,612 @@
+/*Clientside*/
+/*report*/
+
+.repback{
+    -fx-background-color:#FFF;
+}
+
+.rephed{
+    -fx-pref-width:800px;
+    -fx-pref-height:70px;
+    -fx-background-color:#D9D9D9;
+}
+
+.repbt{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+
+.reptitl{
+    -fx-text-fill:#04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+}
+
+.repstockbt{
+    -fx-background-color: #04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 800;
+    -fx-font-size: 16px;
+    -fx-text-fill: #D9D9D9;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-cursor: hand;
+}
+
+.repcont{
+    -fx-pref-width: 400px;
+    -fx-pref-height: 225px;
+    -fx-background-radius: 10px;
+    -fx-background-color:rgba(255, 255, 255, 1);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 4, 0, 4, 4);
+}
+
+
+.repchartcont{
+    -fx-pref-width: 350px;
+    -fx-pref-height: 225px;
+    -fx-background-color:rgba(255, 255, 255, 1);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 4, 0, 4, 4);
+}
+
+.replab{
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 800;
+    -fx-font-size: 16px;
+    -fx-text-fill: #04080F;
+}
+
+.repnevbt{
+    -fx-background-color:#A1C6EA;
+    -fx-font-family: "Open Sans";
+    -fx-pref-height:58.8px;
+    -fx-pref-width:200px;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-cursor:hand;
+    -fx-text-alignment: left;
+}
+
+.repnevbt:hover {
+    -fx-background-color: linear-gradient(to top right, #FFF ,rgba(255, 255, 255, 0.50));
+}
+
+.repslider{
+    -fx-pref-width:200px;
+    -fx-background-color:#A1C6EA;
+}
+
+
+/*low stock*/
+
+.lowback{
+    -fx-background-color:#FFF;
+}
+
+.lowhed{
+    -fx-pref-width:800px;
+    -fx-pref-height:70px;
+    -fx-background-color:#D9D9D9;
+}
+.lowbt{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.lowtitl{
+    -fx-text-fill:#04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 700;
+    -fx-font-size: 16px;
+}
+
+.lowcont{
+    -fx-pref-width: 400px;
+    -fx-pref-height: 530px;
+    -fx-background-radius: 10px;
+    -fx-background-color:rgba(255, 255, 255, 1);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 4, 0, 4, 0);
+}
+
+.lowlab{
+    -fx-text-fill:#ff0404;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 300;
+    -fx-font-size: 20px;
+}
+
+.sliderback{
+    -fx-background-radius: 68px;
+    -fx-background-color: white;
+    -fx-pref-height:40px;
+    -fx-pref-width:40px;
+    -fx-cursor:hand;
+}
+
+
+.Appointment_booking_background{
+    -fx-background-color:#507DBC;
+}
+
+.humble_btn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.Nevigation_Button{
+    -fx-background-color:#A1C6EA;
+    -fx-font-family: "Open Sans";
+}
+
+.Nevigation_Button_hover{
+    -fx-background-color:#04080F;
+
+}
+
+.Days_Background{
+    -fx-background-color:#BBD1EA;
+}
+.Days_Font{
+    -fx-text-fill: #04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-style: normal;
+    -fx-line-height: normal;
+}
+.Year_background{
+    -fx-background-color:#04080F;
+}
+.Year_Font{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Open Sans";
+    -fx-font-style: normal;
+    -fx-line-height: normal;
+}
+
+
+
+.ctextf{
+    -fx-background-color: #FFF;
+/*    -fx-prompt-text-fill:black;*/
+}
+
+/*Booking Appointment*/
+
+.Appointment_booking_background{
+    -fx-background-color:#507DBC;
+}
+
+.humble_btn{
+    -fx-background-color: transparent;
+}
+
+.Appointment_booking_vbox{
+    -fx-background-color: #DAE3E5;
+    -fx-background-radius: 53px 0px 0px 53px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.75), 100, 0, 0, 0);
+}
+
+.clable{
+    -fx-text-fill: #507DBC;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: Bold;
+    -fx-font-size: 60px;
+    -fx-font-style: normal;
+    -fx-line-height:normal;
+}
+
+.booking_btn{
+    -fx-background-color: #04080F;
+    -fx-background-blend-mode: color-burn;
+    -fx-pref-width: 150px;
+    -fx-text-fill: #D4DDDF;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 800;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 3, 3);
+    -fx-cursor: hand;
+}
+
+.regbook{
+    -fx-background-color: #04080F;
+    -fx-background-blend-mode: color-burn;
+    -fx-pref-width: 170px;
+    -fx-text-fill: #D4DDDF;
+    -fx-background-radius:0px 0px 0px 0px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 800;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 3, 3);
+    -fx-cursor: hand;
+}
+
+.boosilder{
+    -fx-pref-width:200px;
+    -fx-pref-height:600px;
+    -fx-background-color: #A1C6EA;
+}
+
+.scroll-pane {
+    -fx-background-color: #A1C6EA;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+/* Set the height and width of the scroll bars */
+.scroll-bar:horizontal .increment-button,
+.scroll-bar:horizontal .decrement-button,
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-pref-height: 10px; /* Set the height */
+    -fx-pref-width: 10px; /* Set the width */
+}
+
+
+
+/* Hide the increment and decrement buttons of the vertical scroll bar */
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-opacity: 0;
+}
+
+
+
+
+/*     APPOINTMENTLIST      */
+.HEADER_BACKGROUND{
+    -fx-background-color:#DAE3E5;
+    -fx-pref-height:70px;
+}
+
+.HEADERFONT{
+    -fx-text-fill: #04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+}
+
+.apbslider{
+    -fx-pref-height:49px;
+    -fx-pref-width:800px;
+    -fx-background-radius: 40px 40px 0px 0px;
+    -fx-background-color: #BBD1EA;
+}
+
+.table-view .column-header {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #507DBC;
+    -fx-font-family: "Open Sans";
+}
+
+/* Apply styles to the table rows */
+.table-row-cell {
+    -fx-font-size: 14px;
+}
+
+/* Apply alternating row colors */
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+/* Apply styles to the selected row */
+.table-row-cell:selected {
+    -fx-background-color: #04080F; /* Use color #04080F for selected rows */
+}
+
+/* Apply styles to the horizontal scrollbar */
+.table-view .scroll-bar:horizontal {
+    -fx-background-color: #dddddd;
+}
+
+/* Apply styles to the vertical scrollbar */
+.table-view .scroll-bar:vertical {
+    -fx-background-color: #dddddd;
+}
+
+/* Apply styles to the table border */
+.table-view {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+
+/* Apply styles to the column resize area */
+.table-view .column-header-background .resize-line {
+    -fx-background-color: #666666;
+}
+
+/* Additional styling for better visual appeal */
+.table-view .column-header:hover {
+    -fx-background-color: #A1C6EA; /* Change background color on hover */
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #A1C6EA; /* Change background color on hover */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #DAE3E5; /* Change background color for selected row */
+    -fx-text-fill: #04080F; /* Change text color for selected row */
+}
+
+/* Change font color to black for selected row */
+.table-row-cell:selected .text {
+    -fx-fill: black;
+}
+
+
+
+.Adcont {
+
+
+    -fx-flex-shrink: 0;
+    -fx-background-radius:0px 107px 107px 0px;
+    -fx-background-color:#04080F;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 10, 0, 15, 6);
+    -fx-pref-width:400px;
+
+
+}
+.back{
+    -fx-background-color:#A1C6EA;
+}
+
+
+.titl{
+    -fx-text-fill: #DAE3E5;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+
+
+    -fx-font-style: normal;
+    -fx-font-weight: 700;
+    -fx-line-height: normal;
+
+
+}
+
+
+/*USER login*/
+.salonmaster{
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: bold;
+    -fx-font-size: 40px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 50, 0, 0, 0);
+}
+
+.leftbox{
+    -fx-background-color: #BBD1EA;
+}
+
+.rightbox{
+    -fx-background-color: #04080F;
+    -fx-background-radius: 107px 0px 0px 107px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 50, 0, 0, 0);
+}
+
+
+.textfield{
+    -fx-background-color:white;
+}
+.loginbtn{
+    -fx-background-color:#A1C6EA;
+    -fx-background-radius: 10px;
+}
+.label{
+    -fx-font-family: "Open Sans"
+}
+
+
+
+
+
+
+
+
+/*report*/
+.redeem{
+    -fx-background-color:#04080F;
+    -fx-background-radius:5px;
+}
+.background{
+    -fx-background-color:#A1C6EA;
+}
+.topborderreward{
+    -fx-background-color:#DAE3E5;
+}
+
+
+
+
+/* Apply styles to the table headers */
+.table-view .column-header {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white; /* Use color #DAE3E5 for text */
+    -fx-background-color: #507DBC; /* Use color #507DBC for background */
+    -fx-font-family: "Open Sans";
+}
+
+
+/* Apply styles to the table rows */
+/*.table-row-cell {
+    -fx-font-size: 14px;
+}
+
+
+ Apply alternating row colors 
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+
+ Apply styles to the selected row 
+.table-row-cell:selected {
+    -fx-background-color: #04080F;  Use color #04080F for selected rows 
+}
+
+
+ Apply styles to the horizontal scrollbar 
+.table-view .scroll-bar:horizontal {
+    -fx-background-color: #dddddd;
+}
+
+
+ Apply styles to the vertical scrollbar 
+.table-view .scroll-bar:vertical {
+    -fx-background-color: #dddddd;
+}
+
+
+ Apply styles to the table border 
+.table-view {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+
+
+ Apply styles to the column resize area 
+.table-view .column-header-background .resize-line {
+    -fx-background-color: #666666;
+}
+
+
+ Additional styling for better visual appeal 
+.table-view .column-header:hover {
+    -fx-background-color: #A1C6EA;  Change background color on hover 
+}
+
+
+.table-row-cell:hover {
+    -fx-background-color: #A1C6EA;  Change background color on hover 
+}
+
+
+.table-row-cell:selected {
+    -fx-background-color: #DAE3E5;  Change background color for selected row 
+    -fx-text-fill: #04080F;  Change text color for selected row 
+}
+
+
+ Change font color to black for selected row 
+.table-row-cell:selected .text {
+    -fx-fill: black;
+}*/
+
+/*product*/
+
+
+.headerproduct{
+    -fx-background-color:#DAE3E5;
+}
+
+/*billing*/
+
+.itemfields{
+    -fx-background-color:#A1C6EA;
+}
+
+
+.comboboxpayment{
+    -fx-background-color:#A1C6EA;
+}
+.billcust{
+    -fx-background-color:#DAE3E5;
+}
+
+
+/*BillingHistory*/
+
+
+.hamburgbtn{
+    -fx-background-color: transparent;
+}
+
+
+/*Employeeregistration*/
+
+
+.Employeehistory{
+    -fx-background-color: #04080F;
+    -fx-background-radius: 0px 107px 107px 0px;
+}
+.erright{
+    -fx-background-color: #A1C6EA;
+}
+.text{
+    -fx-text-fill: #ffffff;
+}
+.erbutton{
+    -fx-background-color: #A1C6EA;
+    -fx-text-fill: #04080F;
+    -fx-font-family: "Open Sans";
+    -fx-font-size:25px;
+    -fx-cursor:hand;
+}
+
+
+/*customerregistration*/
+.leftpan{
+    -fx-background-color:#507DBC;
+}
+.rightpan{
+    -fx-background-color:#DAE3E5;
+}
+.crbutton{
+    -fx-background-color:black;
+    /*-fx-border-radius: 50px;*/
+    /*-fx-text-fill:white;*/
+}
+.label{
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 14px;
+}
+
+
+/*Navigationbar*/
+
+
+.slider{
+    -fx-pref-width : 200px;
+    -fx-background-color: #507DBC;
+    -fx-pref-height : 530px
+}
+
+
+/*EmployeeList*/
+
+
+.borderpaneEL{
+    -fx-pref-width:800px;
+    -fx-pref-height:70px;
+    -fx-background-color:#DAE3E5;
+}
+.ELlabel{
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+.ELtable{
+    -fx-pref-width:800px;
+    -fx-pref-height:530px;
+}
+
+/*Commision*/
+.topbordercl{
+    -fx-background-color: #A1C6EA;
+    -fx-pref-width: 800px;
+    -fx-pref-height: 70px;
+}
+.rightbordercl{
+    -fx-background-color: #04080F;
+}
+.btncl{
+    -fx-background-color: #A1C6EA;
+    -fx-font-family: "Open Sans";
+    -fx-font-fill: black;
+    -fx-font-weight: bold;
+    -fx-cursor:hand;
+}

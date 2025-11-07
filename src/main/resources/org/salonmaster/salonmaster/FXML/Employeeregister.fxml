@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="erright" stylesheets="@../CSS/clientstyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.salonmaster.salonmaster.Controller.EmployeeregisterController">
+   <children>
+      <BorderPane prefHeight="600.0" prefWidth="400.0" styleClass="Employeehistory" stylesheets="@../CSS/clientstyle.css">
+         <top>
+            <Pane prefHeight="70.0" prefWidth="68.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="back" layoutX="11.0" layoutY="16.0" mnemonicParsing="false" onAction="#Back" styleClass="lowbt" stylesheets="@../CSS/clientstyle.css">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../media/arrow 3.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </Pane>
+         </top></BorderPane>
+      <ImageView fitHeight="436.0" fitWidth="382.0" layoutX="410.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/Sign up-amico (1).png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Ename" layoutX="60.0" layoutY="198.0" prefHeight="35.0" prefWidth="290.0" promptText="Employee name" styleClass="textfield" stylesheets="@../CSS/clientstyle.css" />
+      <TextField fx:id="Enumber" layoutX="60.0" layoutY="248.0" prefHeight="35.0" prefWidth="290.0" promptText="Employee Number" styleClass="textfield" stylesheets="@../CSS/clientstyle.css" />
+      <TextField fx:id="Eemail" layoutX="60.0" layoutY="298.0" prefHeight="35.0" prefWidth="290.0" promptText="Email" styleClass="textfield" stylesheets="@../CSS/clientstyle.css" />
+      <TextField fx:id="Ecomission" layoutX="60.0" layoutY="348.0" prefHeight="35.0" prefWidth="290.0" promptText="Commission" styleClass="textfield" stylesheets="@../CSS/clientstyle.css" />
+      <TextField fx:id="Eaddress" layoutX="60.0" layoutY="399.0" prefHeight="35.0" prefWidth="290.0" promptText="Address" styleClass="textfield" stylesheets="@../CSS/clientstyle.css" />
+      <Button fx:id="Submit" layoutX="111.0" layoutY="474.0" mnemonicParsing="false" onAction="#Submit" prefHeight="52.0" prefWidth="194.0" styleClass="erbutton" stylesheets="@../CSS/clientstyle.css" text="Submit" />
+      <Text fill="#a1c6ea" layoutX="80.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee registration">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

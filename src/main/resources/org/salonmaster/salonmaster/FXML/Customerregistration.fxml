@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="Appointment_booking_background" stylesheets="@../CSS/clientstyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.salonmaster.salonmaster.Controller.CustomerregistrationController">
+   <children>
+      <ImageView fitHeight="367.0" fitWidth="394.0" layoutX="12.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="140.0">
+         <image>
+            <Image url="@../media/cureg-removebg-preview 1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="menu" layoutX="64.0" layoutY="18.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" styleClass="humble_btn" stylesheets="@../CSS/clientstyle.css" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="15.0">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/men4.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Pane layoutX="400.0" prefHeight="600.0" prefWidth="400.0" styleClass="Appointment_booking_vbox" stylesheets="@../CSS/style.css">
+         <children>
+            <Label layoutX="133.0" layoutY="86.0" styleClass="clable" stylesheets="@../CSS/clientstyle.css" text="Customer Registration">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="20.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+               <image>
+                  <Image url="@../media/Customer-user.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="cnameTextField" layoutX="71.0" layoutY="194.0" prefHeight="30.0" prefWidth="300.0" promptText="Name" styleClass="ctextf" stylesheets="@../CSS/clientstyle.css" />
+            <TextField fx:id="numTextField" layoutX="71.0" layoutY="253.0" prefHeight="30.0" prefWidth="300.0" promptText="Phone" styleClass="ctextf" stylesheets="@../CSS/clientstyle.css" />
+            <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="22.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/Customer - Phone.png" />
+               </image>
+            </ImageView>
+            <DatePicker fx:id="BdateTextField" editable="false" layoutX="72.0" layoutY="312.0" prefHeight="30.0" prefWidth="120.0" promptText="mm/dd/yyyy" styleClass="ctextf" stylesheets="@../CSS/clientstyle.css" />
+            <DatePicker fx:id="AdateTextField" editable="false" layoutX="251.0" layoutY="312.0" prefHeight="30.0" prefWidth="120.0" promptText="mm/dd/yyyy" styleClass="ctextf" stylesheets="@../CSS/clientstyle.css" />
+            <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="23.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/Customer - Birthday.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="204.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/Customer - Anniversary.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="23.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/Customer - Gender.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="REGISTER" layoutX="132.0" layoutY="450.0" mnemonicParsing="false" onAction="#submit" prefHeight="30.0" prefWidth="150.0" stylesheets="@../CSS/clientstyle.css" text="REGISTER">
+               <styleClass>
+                  <String fx:value="booking_btn" />
+                  <String fx:value="booking_btn_text" />
+               </styleClass>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="GenTextFIeld" layoutX="71.0" layoutY="375.0" prefHeight="30.0" prefWidth="300.0" promptText="Gender" styleClass="ctextf" stylesheets="@../CSS/clientstyle.css" />
+         </children>
+      </Pane>
+      <ScrollPane fx:id="scroll" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="200.0">
+         <content>
+            <StackPane fx:id="navSlider" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="200.0" styleClass="repslider" stylesheets="@../CSS/clientstyle.css">
+               <children>
+                  <Button fx:id="Dashboard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Dashboard" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="Dashboard" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="-8.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/home.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                     <StackPane.margin>
+                        <Insets bottom="581.0" />
+                     </StackPane.margin>
+                  </Button>
+                  <Button fx:id="Reward" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Reward" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="Reward" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets top="363.0" />
+                     </StackPane.margin>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="-23.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/rew.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="Im" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Im" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="Inventory " textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets bottom="117.0" top="8.0" />
+                     </StackPane.margin>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="-11.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/ready-stock (1).png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="Report" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Report" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="Report" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets top="480.0" />
+                     </StackPane.margin>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="-25.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/rep.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="Billing" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#billing" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="Billing" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets top="9.0" />
+                     </StackPane.margin>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="-26.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/Billing.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="Blhistory" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#blhistory" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="History" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets top="127.0" />
+                     </StackPane.margin>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="-23.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/payment (2).png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="Emp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#emp" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="Employee" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets top="245.0" />
+                     </StackPane.margin>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="-14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/employees.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="CU_LIST" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#cu_list" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="Customer List" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets bottom="345.0" />
+                     </StackPane.margin>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/custlist.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="ADD_PRODUCT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#add_product" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="Add Product" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets bottom="227.0" />
+                     </StackPane.margin>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/Add product.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="Setting" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Setting" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="Setting" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets top="598.0" />
+                     </StackPane.margin>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="-24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/settings.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="APB_LIST" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#apb_list" prefHeight="50.0" prefWidth="200.0" styleClass="repnevbt" stylesheets="@../CSS/clientstyle.css" text="Appointment " textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets bottom="463.0" />
+                     </StackPane.margin>
+                     <graphic>
+                        <Pane prefHeight="35.0" prefWidth="42.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="3.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../media/Appointment.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+               </children>
+            </StackPane>
+         </content></ScrollPane>
+      <Button fx:id="menuback" layoutX="176.0" layoutY="14.0" mnemonicParsing="false" styleClass="sliderback" stylesheets="@../CSS/clientstyle.css" visible="false">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../media/left-chevron (1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

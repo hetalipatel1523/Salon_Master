@@ -45,7 +45,7 @@
 - Multi-branch salon management
 
 ## 👨‍💻 Author  
-### Ayush Panchal  
+### Hetali Patel  
 **MSc IT | Java Developer**  
-- **linkdin:** https://www.linkedin.com/in/ayush-panchal-3a0b73276/
+- **linkdin:** https://www.linkedin.com/in/hetali-patel-059318285/
 
